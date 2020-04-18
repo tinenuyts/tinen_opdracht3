@@ -1,0 +1,240 @@
+body {
+  font-family: helvetica, sans-serif;
+  padding: none;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+
+
+.logo {
+  height: 15rem;
+}
+
+h1 {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 2rem;
+  position: relative;
+  margin-top: -2rem;
+  top:7rem;
+}
+
+nav {
+  font-size: 0.7rem;
+  margin-top: 3rem;
+  padding: 0.5rem ;
+  background-color: lightgrey;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  margin-left: 1.3rem;
+}
+
+a {
+  font-size: 0.7rem;
+  color: black;
+}
+
+p {
+  font-size: 0.6rem;
+  margin-top: 2rem;
+  line-height: 0.9rem;
+  width: 95%;
+}
+
+.contact {
+  margin: 0rem;
+}
+
+.detailfoto {
+  width: 17.4rem;
+  margin-top: 2rem;
+}
+
+.wrapperinfo {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+
+.inkijker {
+  width: 10rem;
+  margin-top: -2rem;
+}
+
+#inkijker1 {
+  position: relative;
+  left: 6rem;
+  z-index: -1;
+  bottom: 0.5rem;
+}
+
+#inkijker2 {
+  position: relative;
+  left: 3rem;
+  bottom: -0.7rem;
+}
+
+
+
+.imgnaam {
+  line-height: 2.5rem;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+  border-bottom: 0.05rem solid black;
+  margin-bottom: 1rem;
+}
+
+.imginfo {
+  font-size: 0.6rem;
+  line-height: 0.7rem;
+  margin-top: 0rem;
+}
+
+span {
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 1.2rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 0.8rem;
+  position: relative;
+  left: 10.5rem;
+  top: 11rem;
+}
+
+.ondertitel {
+  top: -2rem;
+  left: 0rem;
+}
+.seemore {
+  font-size: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  border-bottom: 0.05rem solid black;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  text-align: center;
+}
+
+.uitleg {
+  margin-top: 0.8rem;
+}
+.button {
+  display: inline-block;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  border: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 0.7rem;
+}
+
+.button-group {
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.button:hover {
+  background-color: #c9c9c9;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: black;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #c9c9c9
+}
+
+.button.is-checked {
+  color: #56452A;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+/* ---- isotope ---- */
+.grid {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.viewbutton {
+  display: block;
+  color: black;
+  width: 10rem;
+  margin: 0 auto;
+  text-decoration: none;
+  margin-top: -2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  width: 160px;
+  margin: 30px 20px;
+  background: #888;
+  color: #262524;
+  margin-left: 1rem;
+
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.element-item .name {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+
+
+.element-item.cinema {background-color: #f2f2f2;}
+.element-item.fotografie {background-color: #f2f2f2;}

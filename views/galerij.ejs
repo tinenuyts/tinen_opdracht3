@@ -1,0 +1,45 @@
+<%- include('header'); %>
+<script src="/js/script.js"></script>
+<script src="/isotope.js"></script>
+
+<div class="button-group filters-button-group">
+   <button class="button is-checked" data-filter="*">alle werken</button>
+   <button class="button" data-filter=".fotografie">Van Gogh</button>
+   <button class="button" data-filter=".cinema">Magritte</button>
+   <button class="button" data-filter=".cinema">Monet</button>
+</div>
+
+<div class="grid">
+  <a href="/img1p"><img src="<%=een%>" alt="" class="element-item cinema " data-category="cinema"></a>
+  <h3 class="ondertitel">Claude Monet</h3>
+  <a class="viewbutton" href="/img1p">Bekijk details</a>
+  <a href="/img2p"><img src="<%=twee%>" alt="" class="element-item cinema " data-category="cinema"></a>
+  <h3 class="ondertitel">Claude Monet</h3>
+  <a class="viewbutton" href="/img2p">Bekijk details</a>
+  <a href="/img3p"><img src="<%=drie%>" alt="" class="element-item cinema " data-category="cinema"></a>
+  <h3 class="ondertitel">Claude Monet</h3>
+  <a class="viewbutton" href="/img3p">Bekijk details</a>
+  <a href="/img4p"><img src="<%=vier%>" alt="" class="element-item cinema " data-category="cinema"></a>
+  <h3 class="ondertitel">René Magritte</h3>
+  <a class="viewbutton" href="/img4p">Bekijk details</a>
+  <a href="/img5p"><img src="<%=vijf%>" alt="" class="element-item cinema " data-category="cinema"></a>
+  <h3 class="ondertitel">René Magritte</h3>
+  <a class="viewbutton" href="/img5p">Bekijk details</a>
+  <a href="/img6p"><img src="<%=zes%>" alt="" class="element-item cinema " data-category="cinema"></a>
+  <h3 class="ondertitel">René Magritte</h3>
+  <a class="viewbutton" href="/img6p">Bekijk details</a>
+  <a href="/img7p"><img src="<%=zeven%>" alt="" class="element-item fotografie " data-category="fotografie"></a>
+  <h3 class="ondertitel">Vincent Van Gogh</h3>
+  <a class="viewbutton" href="/img7p">Bekijk details</a>
+  <a href="/img8p"><img src="<%=acht%>" alt="" class="element-item fotografie " data-category="fotografie"></a>
+  <h3 class="ondertitel">Vincent Van Gogh</h3>
+  <a class="viewbutton" href="/img8p">Bekijk details</a>
+  <a href="/img9p"><img src="<%=negen%>" alt="" class="element-item fotografie " data-category="fotografie"></a>
+  <h3 class="ondertitel">Vincent Van Gogh</h3>
+  <a class="viewbutton" href="/img9p">Bekijk details</a>
+  <a href="/img10p"><img src="<%=tien%>" alt="" class="element-item fotografie " data-category="fotografie"></a>
+  <h3 class="ondertitel">Vincent Van Gogh</h3>
+  <a class="viewbutton" href="/img10p">Bekijk details</a>
+</div>
+
+<%- include('footer'); %>
